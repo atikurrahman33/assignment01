@@ -7,7 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 /* banner style start */
-.banner {
+.banner,
+.offer {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -53,7 +54,18 @@
 }
 
 /* banner style end */
-
+/* Offer section Styling Start */
+.offer-section{
+    width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.offer-section div h1{
+    font-weight: 700;
+}
 /* Footer section style start */
 footer {
     background: #111010;
@@ -81,3 +93,4 @@ footer .copyright{
     margin-top: 20px;
     font-size: 10px;
 }
+/* Footer style end */
