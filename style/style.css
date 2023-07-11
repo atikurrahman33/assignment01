@@ -54,6 +54,35 @@
 }
 
 /* banner style end */
+
+/* Feature img section style start  */
+.featureimgContent{
+    padding: 60px 0;
+}
+/* Feature img section style end  */
+.images{
+    width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.images img{
+    width: 350px;
+    height: 400px;
+}
+.img1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.img2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.img3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15); 
+}
 /* Offer section Styling Start */
 .offer-section{
     width: 840px;
@@ -81,7 +110,8 @@
     font-weight: 700;
     font-size: 30px;
 }
-.instaDescription{
+.instaDescription, 
+.subscription-desc{
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     margin: 10px 0;
@@ -95,6 +125,27 @@
     width: 260px;
 }
 /* Instagram section style end */
+/* Subscription section style start */
+.subscription{
+    width: 1140px;
+    margin: 120px auto;
+    background-image: url(../assets/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    /* height: 400px; */
+    padding: 140px 0;
+}
+.subscription-content{
+    text-align: center;
+}
+.input-box{
+    margin-top: 20px;
+    padding: 14px 5px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+}
 /* Footer section style start */
 footer {
     background: #111010;
