@@ -66,6 +66,35 @@
 .offer-section div h1{
     font-weight: 700;
 }
+/* Offer section style end */
+/* Instagram section style start */
+.heading{
+    text-align: center;
+}
+.insta-content{
+    width: 1140px;
+    margin: 80px auto;
+
+}
+.section-heading{
+    color: #272727;
+    font-weight: 700;
+    font-size: 30px;
+}
+.instaDescription{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    margin: 10px 0;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+}
+.feature-img img{
+    width: 260px;
+}
+/* Instagram section style end */
 /* Footer section style start */
 footer {
     background: #111010;
